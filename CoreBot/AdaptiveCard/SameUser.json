@@ -1,0 +1,43 @@
+﻿{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "http://cv-website.azurewebsites.net/wp-content/uploads/2018/10/codiauto.png",
+                            "size": "Stretch"
+                        }
+                    ],
+                    "width": "50px"
+                },
+                {
+                    "type": "Column",
+                    "horizontalAlignment": "Center",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Left",
+                            "spacing": "None",
+                            "weight": "Bolder",
+                            "text": "Welcome Back"
+                        },
+                      {
+                        "type": "TextBlock",
+                        "text": "Ready when you ready",
+                        "wrap": true
+                      }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

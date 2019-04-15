@@ -1,0 +1,61 @@
+﻿{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "style": "Person",
+              "url": "http://cv-website.azurewebsites.net/wp-content/uploads/2018/10/codiauto.png",
+              "size": "Small"
+            }
+          ],
+          "width": "50px"
+        },
+        {
+          "type": "Column",
+          "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "TextBlock",
+              "horizontalAlignment": "Left",
+              "height": "stretch",
+              "size": "Medium",
+              "weight": "Bolder",
+              "text": "Alerts"
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": ["XXXXXXXX"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "List Active Alerts",
+      "data": {
+        "Selection": "ListAlerts"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Back",
+      "data": {
+        "Selection": "Back"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

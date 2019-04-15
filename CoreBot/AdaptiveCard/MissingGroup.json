@@ -1,0 +1,55 @@
+﻿{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "Image",
+                  "style": "Person",
+                  "url": "http://cv-website.azurewebsites.net/wp-content/uploads/2018/10/codiauto.png",
+                  "size": "Small"
+                }
+              ],
+              "width": "50px"
+            },
+            {
+              "type": "Column",
+              "horizontalAlignment": "Center",
+              "verticalContentAlignment": "Center",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "Left",
+                  "height": "stretch",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Codi Permission Problem"
+                }
+              ],
+              "width": "stretch"
+            }
+          ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "I checked in Active Directory and you are not member of Codi Group in your organizational Azure Active Directory. Contact your administrator.",
+            "isSubtle": true,
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "OK",
+            "data": {
+                "id": "missing group"
+            }
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

@@ -1,0 +1,28 @@
+﻿{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "color": "Dark",
+      "text": "List of Alerts last 24H:"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        "XXXXXXXX"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Back",
+      "data": {
+        "Selection": "Back"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

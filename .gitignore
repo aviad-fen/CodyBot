@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/CoreBot/.vs/CoreBot/v15
+/CoreBot/bin/Debug/netcoreapp2.1
+/CoreBot/obj
